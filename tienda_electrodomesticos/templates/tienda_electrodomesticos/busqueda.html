@@ -1,0 +1,10 @@
+{% extends 'tienda_electrodomesticos/base.html' %}
+{% block contenido %}
+<form action="{% url 'Comercio-busqueda-resultado' %}" method="get">
+    <p>
+        Nombre del producto: <input type="text" name="nombre_producto">
+        <input type="submit" value="Buscar">
+    </p>
+</form>
+    <a href="{% url 'Comercio-inicio' %}"> Volver a Inicio</a>
+{% endblock %}

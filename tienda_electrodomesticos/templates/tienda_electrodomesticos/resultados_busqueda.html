@@ -1,0 +1,9 @@
+{% extends 'tienda_electrodomesticos/base.html' %}
+{% block contenido %}
+<ul>
+    {% for productos in producto %}
+    <li>Nombre: {{productos.nombre_productos}} - Precio: {{productos.precio}} - Descripcion: {{productos.descripcion}}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'Comercio-inicio' %}"> Volver a Inicio</a>
+{% endblock %}

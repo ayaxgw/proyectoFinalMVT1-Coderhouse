@@ -1,0 +1,10 @@
+{% extends 'tienda_electrodomesticos/base.html' %}
+{% block contenido %}
+    <h1>Ingrese producto</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{formulario.as_p}}
+        <input type="submit" value="Crear producto">
+    </form>
+    <a href="{% url 'Comercio-inicio' %}"> Volver a Inicio</a>
+{% endblock %}

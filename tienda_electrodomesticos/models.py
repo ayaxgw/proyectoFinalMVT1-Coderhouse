@@ -10,10 +10,10 @@ class Usuario(models.Model):
     nombre_usuario = models.CharField(max_length=30)
     contrasenia = models.CharField(max_length=30)
 
-class Electrodomestico(models.Model):
-    tipo_electrodomestico = models.CharField(max_length=30)
+class Producto(models.Model):
+    nombre_producto = models.CharField(max_length=30)
     precio = models.IntegerField()
-    especificaciones = models.CharField(max_length = 200)
+    observaciones = models.CharField(max_length = 600)
 
 class Garantia(models.Model):
     tipo_reparacion = models.CharField(max_length = 30)
