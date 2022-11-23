@@ -25,5 +25,5 @@ _Herramienta que utilice para crear el proyecto_
 
 * [Django](https://docs.djangoproject.com/en/4.1/releases/) - El framework web usado
 
-### Acepto recomendaciones en donde buscar imagenes y logos para mejorar la web en el proyecto, saludos. 🛠️
+### Acepto recomendaciones en donde buscar imagenes y logos para mejorar la web en el proyecto, saludos.
 
