@@ -18,3 +18,5 @@ class Producto(models.Model):
 class Garantia(models.Model):
     tipo_reparacion = models.CharField(max_length = 30)
     precio = models.IntegerField() 
+
+# Realizando cambios en models.py para crear las migraciones
